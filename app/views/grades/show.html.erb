@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Subject:</strong>
+  <%= @grade.subject %>
+</p>
+
+<p>
+  <strong>Grade:</strong>
+  <%= @grade.grade %>
+</p>
+
+<p>
+  <strong>Term:</strong>
+  <%= @grade.term %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @grade.date %>
+</p>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mVZFtS9rBgI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<%= link_to 'Edit', edit_grade_path(@grade) %> |
+<%= link_to 'Back', grades_path %>
